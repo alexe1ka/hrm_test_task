@@ -15,6 +15,7 @@ async def get_predictions(json_data, url):
 
 if __name__ == '__main__':
     # client-server
+    #обработки ошибок нет,сервер надо запустить первым
     #send only lists,without serialization
     decoder = decoder.Decoder()
     prob_list, alphabet_list = utils.parse_arguments()
